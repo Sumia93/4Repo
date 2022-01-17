@@ -1,0 +1,492 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html {
+    font-size: 16px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#nav {
+    background-color: #000509;
+    padding: 15px 0;
+}
+
+.nav-logo {
+    float: left;
+    width: 45%;
+}
+
+.nav-links {
+    float: right;
+    width: 50%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: .8rem;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*booking*/
+
+#booking {
+    position: relative;
+    height: 750px;
+    position: relative;
+    background-image: url(../Images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 2;
+}
+
+.booking-journey {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: 33;
+    margin: auto 0;
+    float: left;
+    width: 42%;
+}
+
+.booking-journey p,
+.booking-journey h2,
+.booking-journey button {
+    color: #fff;
+}
+
+.booking-journey h2,
+.booking-journey p:first-of-type,
+.booking-journey button {
+    text-transform: uppercase;
+}
+
+.booking-journey p:first-of-type {
+    word-spacing: 5px;
+}
+
+.booking-journey h2 {
+    margin: 15px 0 20px 0;
+    font-size: 2rem;
+}
+
+.booking-journey p:last-of-type {
+    margin-bottom: 35px;
+}
+
+.booking-journey button {
+    background-color: #f9b700;
+    color: #fff;
+    padding: 13px 32px;
+    outline: none;
+    cursor: pointer;
+}
+
+.booking-form {
+    margin: 117px 0;
+    position: relative;
+    z-index: 35;
+    float: right;
+    width: 41%;
+    padding: 5%;
+    background-color: rgba(21, 30, 45, .6);
+    border: 1px solid gray;
+}
+
+.booking-form form {
+    position: relative;
+    z-index: 77;
+}
+
+.booking-form h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+form input,
+form select {
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+form select:nth-child(1),
+form input:nth-child(6),
+form input[type='email'],
+form input[type="tel"] {
+    display: block;
+    width: 93%;
+}
+
+form select:nth-child(2),
+form input:nth-child(3),
+form select:nth-child(4),
+form input:nth-child(5) {
+    display: inline-block;
+    width: 46%;
+}
+
+
+/*services*/
+
+.services {
+    padding: 25px 0;
+}
+
+.services-heading {
+    text-align: center;
+}
+
+.services-heading h4 {
+    color: gray;
+    margin: 10px 0 30px;
+}
+
+.services-degree {
+    width: 30%;
+    float: left;
+    background-color: #ededf7;
+    padding: 20px;
+    margin: 0 0 20px 20px;
+}
+
+.services-degree img {
+    float: left;
+    margin-right: 7px;
+}
+
+.services-degree h3 {
+    float: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.services-degree p {
+    color: gray;
+}
+
+
+/*network*/
+
+#network {
+    position: relative;
+}
+
+.network-img {
+    float: left;
+    width: 50%;
+}
+
+.network-img img {
+    width: 100%;
+}
+
+.network-details {
+    float: left;
+    width: 45%;
+    margin-left: 2%;
+    padding: 150px 0;
+}
+
+.network-details h2 {
+    width: 40%;
+}
+
+.network-details p:first-of-type {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.network-details p:last-of-type {
+    color: gray;
+}
+
+.network-details button {
+    background-color: #f9b700;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+}
+
+
+/*models*/
+
+#models {
+    padding: 30px 0;
+}
+
+.models-heading {
+    text-align: center;
+}
+
+.models-heading h4 {
+    color: gray;
+    margin: 10px 0 30px;
+}
+
+.model-details {
+    float: left;
+    width: 45%;
+}
+
+.model-details-span h2 {
+    float: right;
+    font-size: 2.5rem;
+    color: #f9b700;
+}
+
+.model-details-span p {
+    float: left;
+    position: relative;
+    top: 25px;
+}
+
+.model-img {
+    float: left;
+    width: 45%;
+    margin-left: 3%;
+}
+
+.model-details .para {
+    margin-top: 30px;
+    color: gray;
+}
+
+.model-details-caption {
+    margin: 30px 0;
+    color: gray;
+}
+
+.model-details button {
+    background-color: #222222;
+    color: white;
+    padding: 10px 25px;
+}
+
+.bullets {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.bullets ul li {
+    list-style-type: square;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin: 30px 5px 0 0;
+}
+
+.bullets ul li:first-of-type {
+    background-color: #f9b700;
+}
+
+.bullets ul li {
+    background-color: #bfbfbf;
+}
+
+
+/*support*/
+
+.support {
+    background-image: url(../Images/callaction-bg.jpg);
+    height: 410px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.support-details {
+    text-align: center;
+    padding: 170px;
+    position: relative;
+    z-index: 150;
+}
+
+.support-details h2,
+.support-details p {
+    color: #fff;
+}
+
+.support-details h2 {
+    font-size: 2.5rem;
+}
+
+.support-details p {
+    margin: 20px 0;
+}
+
+.support-details button {
+    border: 2px solid #f9b700;
+    color: #f9b700;
+    background-color: transparent;
+    padding: 15px 30px;
+}
+
+
+/*blog*/
+
+#blog {
+    padding: 30px 0;
+}
+
+.blog-heading {
+    text-align: center;
+}
+
+.blog-heading h2 {
+    text-transform: uppercase;
+    font-weight: 2rem;
+}
+
+.blog-heading p {
+    color: #bfbfbf;
+    margin: 10px 0 70px;
+}
+
+.blog-add {
+    float: left;
+    width: 22%;
+    margin-right: 3%;
+}
+
+.blog-add h3 {
+    background-color: #000;
+    color: white;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 11px 25px;
+}
+
+.blog-add h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.blog-add p {
+    color: #bfbfbf;
+    margin-bottom: 10px;
+}
+
+.blog-add-right {
+    float: left;
+    color: #bfbfbf;
+}
+
+.blog-add-left {
+    float: right;
+    color: #bfbfbf;
+}
+
+
+/*footer*/
+
+#footer {
+    background-color: #04091d;
+    color: #ddd;
+    padding: 30px 0 50px;
+}
+
+.footer-jobs {
+    float: left;
+    width: 20%;
+}
+
+.footer-features {
+    width: 20%;
+    float: left;
+}
+
+.footer-resources {
+    float: left;
+    width: 20%;
+}
+
+.footer-follow {
+    float: left;
+    width: 20%;
+}
+
+.footer-new {
+    float: left;
+    width: 20%;
+}
+
+.footer-jobs h2,
+.footer-features h2,
+.footer-resources h2,
+.footer-follow h2,
+.footer-new h2 {
+    margin: 50px 0 25px;
+}
+
+#footer ul li {
+    list-style: none;
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: .7rem;
+}
+
+.footer-follow p {
+    margin-bottom: 15px;
+}
+
+.footer-follow div {
+    margin-left: -5px;
+}
+
+.footer-follow div a {
+    margin: 0 10px 0 0;
+}
+
+.footer-new p {
+    margin-bottom: 15px;
+}
+
+.footer-new-input {
+    position: relative;
+}
+
+.footer-new-input span {
+    position: absolute;
+    background-color: #f9b700;
+    color: #fff;
+    top: 0px;
+    left: 173px;
+    height: 19px;
+    width: 30px;
+    text-align: center;
+    line-height: 19px;
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-top: 50px;
+}
